@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:description" content="Godefroy is CTO @ Lone Stone Studio, he's an Entrepreneur and Software Engineer">
+    <meta property="og:title" content="Godefroy de Compreignac">
+    <meta property="og:site_name" content="Godefroy de Compreignac">
+    <meta property="og:url" content="http://godefroy.me">
+    <title>Godefroy de Compreignac</title>
+    <link href="TemplateData/style.css" rel="stylesheet">
+    <script src="TemplateData/UnityProgress.js"></script>
+</head>
+<body>
+
+<div id="main" class="container">
+    <h1>Godefroy de Compreignac</h1>
+
+    <h2>Entrepreneur, Software Engineer &amp; Manager</h2>
+
+    <ul id="jobs">
+        <li>Co-founder &amp; CTO @ <a href="http://lonestone.studio">Lone Stone Studio</a></li>
+        <li>Founder &amp; ex-CEO @ <a href="https://www.eklablog.com">Eklablog</a></li>
+    </ul>
+
+    <ul id="networks">
+        <li><a href="https://twitter.com/Godefroy">Twitter</a></li>
+        <li><a href="https://github.com/Godefroy">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/godefroy">LinkedIn</a></li>
+    </ul>
+</div>
+
+<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+
+<img id="spinner" src="TemplateData/spinner.gif" alt="Loading..." />
+<p id="message"></p>
+<div id="progressbar"></div>
+
+%UNITY_WEBGL_LOADER_GLUE%
+
+</body>
+</html>
